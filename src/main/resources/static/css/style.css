@@ -1,0 +1,45 @@
+body {
+    background-color: #89BF64;
+}
+
+.container{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.author {
+    font-size:45px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contacts {
+    margin-top: 2%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vk::before{
+    content: "\f189";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #ffffff;
+    font-size: 30px;
+    padding-right: 0.5em;
+}
+
+.github::before{
+    content: "\f092";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #ffffff;
+    font-size: 30px;
+    padding-right: 0.5em;
+}
