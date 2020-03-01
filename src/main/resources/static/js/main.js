@@ -21,8 +21,8 @@ const particlesSettings = {
             },
             "image": {
                 "src": "img/github.svg",
-                "width": 100,
-                "height": 100
+                "width": 50,
+                "height": 50
             }
         },
         "opacity": {
@@ -36,7 +36,7 @@ const particlesSettings = {
             }
         },
         "size": {
-            "value": 10,
+            "value": 6,
             "random": true,
             "anim": {
                 "enable": false,
