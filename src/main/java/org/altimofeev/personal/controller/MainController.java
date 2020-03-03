@@ -12,4 +12,8 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping("/projects")
+    public String projects( Model model) {
+        return "projects";
+    }
 }

@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+.main{
+    display: block;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+}
+
 .container{
     display: block;
     position: absolute;
@@ -15,6 +23,16 @@ body {
     font-size:45px;
     color: #ffffff;
     text-align: center;
+}
+
+.projects{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.projects a{
+    font-size:30px;
+    color: #ffffff;
 }
 
 .contacts {
